@@ -2,6 +2,9 @@
 
 This sample demonstrates [how to use the new Markdown content extraction feature of Azure AI Document Intelligence's pre-built Layout model](https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/document-intelligence-preview-adds-more-prebuilts-support-for/ba-p/4084608) to convert documents, such as invoices, into Markdown, then use GPT-3.5 Turbo to extract structured JSON data using the [Azure OpenAI Service](https://learn.microsoft.com/en-us/azure/ai-services/openai/overview).
 
+> [!IMPORTANT]
+> To run this sample, you must be registered to deploy Azure OpenAI resources in your Azure Subscription. If you are not, please follow the [instructions in the registration process](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/limited-access#registration-process) to enable this feature in Azure.
+
 This approach is ideal for scenarios where you need to extract structured data from PDFs, Office file types like Word, PowerPoint, and Excel, HTML, and images by taking advantage of the pre-built Layout model in Azure AI Document Intelligence, combined with the powerful capabilities to extract relevant information using OpenAI's GPT-3.5 Turbo model without the need to train a custom extraction model. This approach provides the following advantages:
 
 - **No requirement to train a custom model**: Combining the pre-built Layout model in Azure AI Document Intelligence with OpenAI's GPT-3.5 Turbo model allows you to extract structured data without the need to train a custom model for your specific document types using only tailored prompts. This can save time and resources, especially for organizations that need to process a wide variety of document types.
