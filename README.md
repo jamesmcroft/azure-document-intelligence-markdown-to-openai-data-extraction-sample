@@ -1,5 +1,8 @@
 # Using Azure AI Document Intelligence and Azure OpenAI GPT-3.5 Turbo to extract structured data from documents
 
+> [!IMPORTANT]
+> This sample has moved to [Azure/ai-document-processing-pipeline](https://github.com/Azure/ai-document-processing-pipeline). Archived for reference.
+
 This sample demonstrates [how to use the new Markdown content extraction feature of Azure AI Document Intelligence's pre-built Layout model](https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/document-intelligence-preview-adds-more-prebuilts-support-for/ba-p/4084608) to convert documents, such as invoices, into Markdown, then use GPT-3.5 Turbo to extract structured JSON data using the [Azure OpenAI Service](https://learn.microsoft.com/en-us/azure/ai-services/openai/overview).
 
 > [!IMPORTANT]
